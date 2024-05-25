@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Scribble&display=swap");
+.manage__account__container {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 10px;
+}
+
+.edit__account__container {
+  width: 100%;
+  height: 300px;
+  background-image: url("./1.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 32px;
+  box-shadow: 1px 1px 1px 1px rgb(190, 190, 187);
+  display: flex;
+}
+
+.edit__account {
+  width: 100%;
+  height: 100%;
+}
+
+.edit__account__header {
+  width: 100%;
+  height: 20%;
+  font-size: 1.7rem;
+  font-weight: bolder;
+}
+
+.edit__account__form__container {
+  width: 100%;
+  height: 80%;
+}
+
+.edit__account__form {
+  width: 100%;
+  height: 100%;
+}
+
+.edit__input__container {
+  height: 35%;
+  width: auto;
+}
+
+.edit__account__input {
+  height: 35%;
+  width: 100%;
+}
+
+.separator__line {
+  margin-top: 20px;
+  height: 5px;
+  width: 50%;
+  background-color: #ffe26e;
+}
+
+/* Delete account form */
+
+.delete_account__container {
+  width: 250px;
+  height: 200px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.delete__account {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-self: flex-start;
+  flex-direction: column;
+}
+
+.delete__account__header {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 1.7rem;
+  font-weight: bolder;
+}
+
+.delete__account__prompt {
+  height: 35%;
+  width: 100%;
+}
+
+.delete__account__button__container {
+  height: 35%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.delete__account__button {
+  height: 45px;
+  width: 160px;
+  font-size: 1rem;
+  background-color: #ff6e6e;
+  border-color: #ff6e6e;
+  border-style: dashed;
+  font-weight: bold;
+}
+.inYourCart {
+  height: auto;
+  width: auto;
+
+}
+.inYourCart h1{
+  font-family: "Rubik Scribble";
+  color: black;
+   font-weight: bolder;
+}
+.accountimagecart {
+  height: auto;
+  width: 10vw;
+}
+.carddd{
+  height: auto;
+  width: 22vw;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 5vh;
+  margin-bottom: 5vh;
+  align-content: center;
+
+}
+.carddd:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  transform: translateY(-10px);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.carddd h2{
+  padding-top:  5vh;
+}

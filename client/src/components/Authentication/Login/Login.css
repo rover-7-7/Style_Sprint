@@ -1,0 +1,251 @@
+@import "https://fonts.googleapis.com/css?family=Oswald|Roboto";
+
+.login-form-body {
+  font-family: "Roboto", sans-serif;
+  height: 100%;
+  width: 100%;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
+.login-form-body::before {
+  content: "";
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  margin-top: 50vh;
+}
+
+.login-form-table {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.login-form-table-cell {
+  display: table-cell;
+  transition: all 0.5s ease 0s;
+  vertical-align: middle;
+}
+.form-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.login-form-container {
+  background-color: rgb(2, 4, 32);
+  height: 420px;
+  position: relative;
+  transition: all 0.5s ease 0s;
+  width: 650px;
+  margin-left: 30vw;
+}
+
+.login-form-container .box {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.login-form-container .box::after {
+  background-color: #03e9f4;
+  content: " ";
+  height: 285px;
+  left: 152px;
+  position: absolute;
+  top: 90px;
+  transform: rotateX(52deg) rotateY(15deg) rotateZ(-38deg);
+  transition: all 0.5s ease 0s;
+  width: 200px;
+}
+
+.login-form-container .box::after {
+  background-color: #03e9f4;
+  height: 180px;
+  left: 80px;
+  top: -20px;
+  width: 320px;
+}
+
+.login-form-container .container-forms {
+  position: relative;
+}
+
+.login-form-container .btn {
+  background-color: #03e9f4;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  margin: 0 auto;
+  opacity: 1;
+  text-align: center;
+  transition: all 0.5s ease 0s;
+  width: 60px;
+}
+
+.login-form-container .btn:hover {
+  background-color: #03e9f4;
+  color: #fff;
+  box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4,
+    0 0 100px #03e9f4;
+}
+
+.login-form-container .btn,
+.login-form-container input {
+  border-radius: 30px;
+  padding: 10px 15px;
+}
+
+.login-form-container input {
+  border: 1px solid rgb(243, 243, 243);
+  box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.03);
+  color: rgb(102, 102, 102);
+  display: block;
+  margin: 0 auto 15px;
+  transition: all 0.3s ease 0s;
+  width: 220px;
+}
+
+.login-form-container .container-forms .container-info {
+  font-size: 0;
+  text-align: left;
+}
+
+.login-form-container .container-forms .container-info .info-item {
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  font-size: 16px;
+  height: 420px;
+  opacity: 1;
+  text-align: center;
+  transition: all 0.3s ease 0s;
+  vertical-align: middle;
+  width: 300px;
+}
+
+.login-form-container .container-forms .container-info .info-item p {
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+  margin-top: 20vh;
+  margin-left: 8vh;
+}
+
+.login-form-container .container-forms .container-info .info-item .btn {
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid rgb(255, 255, 255);
+  margin-top: 5vh;
+  margin-left: 7vh;
+  width: auto;
+  padding: 10px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.login-form-container .container-forms .container-info .info-item .btn:hover {
+  background-color: #03e9f4;
+  border-color: #03e9f4;
+}
+
+.login-form-container .container-forms .container-info .info-item .table-cell {
+  width: 100vh;
+  padding-right: 65px;
+}
+
+.login-form-container
+  .container-forms
+  .container-info
+  .info-item:nth-child(2)
+  .table-cell {
+  padding-left: 35px;
+  padding-right: 0;
+}
+
+.login-form-container .container-form {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+  height: 480px;
+  left: 30px;
+  position: absolute;
+  top: -30px;
+  transition: all 0.5s ease 0s;
+  width: 340px;
+  display: flex;
+}
+
+.login-form-container .container-form::before {
+  color: blue;
+  content: "✔";
+  font-size: 130px;
+  left: 160px;
+  opacity: 0;
+  position: absolute;
+  top: -50px;
+  transition: all 0.5s ease 0s;
+}
+
+.login-form-container .container-form .btn {
+  box-shadow: 5px 5px 10px rgba(255, 115, 179, 0.5);
+  display: block;
+  margin-top: 30px;
+  position: relative;
+  width: 120px;
+}
+
+.login-form-container .form-item {
+  height: 100%;
+  left: 0;
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  transition: all 0.5s ease 0s;
+  width: 100%;
+}
+
+.login-form-container .form-item.sign-up {
+  left: -100%;
+  opacity: 0;
+  position: absolute;
+}
+
+.login-form-container.log-in .box::before {
+  height: 265px;
+  left: 180px;
+  position: absolute;
+  top: 62px;
+}
+
+.login-form-container.log-in .box::after {
+  height: 220px;
+  left: 192px;
+  top: 22px;
+  width: 324px;
+}
+
+.login-form-container.log-in .container-form {
+  left: 265px;
+}
+
+.login-form-container.log-in .container-form .form-item.sign-up {
+  left: 0;
+  opacity: 1;
+}
+
+.login-form-container.log-in .container-form .form-item.log-in {
+  left: -100%;
+  opacity: 0;
+}
+.ppp {
+  color: blue;
+}
+@media only screen and (max-width: 600px) {
+  .login-form-body {
+    overflow-x: hidden;
+  }
+  .login-form-container {
+    margin-left: 0 !important;
+    width: auto;
+  }
+  .form-item {
+    padding: 0;
+  }
+}
